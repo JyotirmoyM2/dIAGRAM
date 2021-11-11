@@ -7,6 +7,10 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { AddCaptureComponent } from './add-capture/add-capture.component';
 
+
+// Imported Syncfusion RichTextEditorModule from Rich Text Editor package
+import { RichTextEditorModule } from '@syncfusion/ej2-angular-richtexteditor';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,6 +21,7 @@ import { AddCaptureComponent } from './add-capture/add-capture.component';
     BrowserModule,
     AppRoutingModule,
     NiceSelectModule,
+    RichTextEditorModule,
     MalihuScrollbarModule.forRoot(),
   ],
   providers: [],
