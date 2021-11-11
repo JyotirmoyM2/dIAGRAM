@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-display: swap;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-display: swap;  
+  background-color: $bodyBG;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: $primaryColor;
+  transition: 0.1s linear;
+}
+
+p {
+  margin: 1rem 0;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+hr {
+  background: #eaedf3;
+  opacity: 1;
+}
+
+// form control
+.form-group {
+  margin-bottom: 16px;
+}
+.form-label {
+  color: $labelColor;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+}
+.form-control {
+  border-color: $borderColorLight;
+  box-shadow: inset 0px 1px 1px rgba(100,100,100,0.05);
+    
+  &.input-icon {
+    border-right: 0;
+  }
+
+  &:focus{
+    box-shadow: none !important; 
+  }
+}
+.input-group-text {
+  background: transparent;
+  border-left: 0;
+}
+.btn {
+  border: 0;
+  min-height: 38px;
+  &.btn-primary {
+    background: $primaryBtn;
+    &:hover,
+    &:focus,
+    &:active,
+    &:hover:focus {
+      background: darken($primaryBtn, 10%);
+    }
+  }
+  &.btn-secondary {
+    background: $secondaryBtnColor;
+    &:hover,
+    &:focus,
+    &:active,
+    &:hover:focus {
+      background: darken($secondaryBtnColor, 10%);
+    }
+  }
+  &.btn-light {
+    background: $whiteColor;
+    border: 1px solid #e4e8ee;
+    &:hover,
+    &:focus,
+    &:active,
+    &:hover:focus {
+      background: darken($whiteColor, 10%);
+    }
+  }
+}
+.custom-select{
+  font-size:14px;
+  font-family: 'Roboto', sans-serif;
+  background: $whiteColor url("assets/ic_select.svg") no-repeat right 0.75rem center;
+  border-color: $borderColorLight;
+  box-shadow: inset 0px 1px 1px rgba(100,100,100,0.05);
+}
+
+.nice-select{
+  font-family: 'Roboto', sans-serif;
+  height: 38px;
+  line-height: 38px;
+  border-color: $borderColorLight;
+  box-shadow: inset 0px 1px 1px rgba(100,100,100,0.05);
+  background: $whiteColor url("assets/ic_select.svg") no-repeat right 0.75rem center;
+
+  &::after{
+    display: none;
+  }
+
+  &.franchaise_select{
+    width: 120px;
+    font-size: 16px;
+    border-color:transparent;
+    box-shadow: none;    
+  }
+}
+.custom-control-label{
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color:$fontColor;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.font_reg{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.font_light{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.font_med{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+.font_12{
+  font-size: 12px;
+}
+.font_14{
+  font-size: 14px;
+}
+.font_16{
+  font-size: 16px;
+}
+.font_20{
+  font-size: 20px;
+}
+
+.color_grey{
+  color: $fontColor;
+}
+.color_grey_light{
+  color: $fontColor-light;
+}
+.color_green{
+  color: $fontColor-green;
+}
+.color_blue{
+  color: $fontColor-blue;
+}
+.color_primary{
+  color: $primaryColor;
+}
+.bg_grey_light{
+  background-color:  rgba($cardBorder,0.3);
+}

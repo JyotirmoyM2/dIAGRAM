@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L16 0L16 16L0 16L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="search">
+    <path d="M0 0L16 0L16 16L0 16L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <g id="Group" transform="translate(0 0.019226074)">
+        <g id="Group">
+          <path d="M7.05542 0C3.1651 0 0 3.15644 0 7.03617C0 10.9159 3.16513 14.0723 7.05542 14.0723C10.9457 14.0723 14.1109 10.9159 14.1109 7.03617C14.1109 3.15644 10.9457 0 7.05542 0L7.05542 0ZM7.05553 12.9157C3.8029 12.9157 1.15674 10.278 1.15674 7.03613C1.15674 3.79409 3.8029 1.15659 7.05553 1.15659C10.3082 1.15659 12.9543 3.79409 12.9543 7.03613C12.9544 10.278 10.3082 12.9157 7.05553 12.9157L7.05553 12.9157Z" id="Shape" fill="#9EA0A5" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+      <g id="Group" transform="translate(11.045898 11.045837)">
+        <g id="Group">
+          <path d="M4.78378 3.94656L0.98618 0.168241C0.75968 -0.0569154 0.393585 -0.0559474 0.168241 0.170366C-0.0569154 0.396866 -0.0559474 0.76293 0.170366 0.988305L3.96797 4.76663C4.08094 4.87881 4.22822 4.93491 4.37587 4.93491C4.5245 4.93491 4.67294 4.87803 4.78591 4.7645C5.01107 4.53797 5.0101 4.17191 4.78378 3.94656L4.78378 3.94656Z" id="Shape" fill="#9EA0A5" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

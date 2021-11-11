@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L14 0L14 14L0 14L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="badge-svgrepo-com">
+    <path d="M0 0L14 0L14 14L0 14L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M12.8621 5.71623L11.9642 4.58304L12.2829 3.17206L10.9806 2.54243L10.6556 1.13343L9.20936 1.12898L8.30464 0L7.00038 0.625722L5.69611 0L4.79145 1.12886L3.34519 1.13331L3.02028 2.54231L1.71794 3.17194L2.03666 4.58298L1.13867 5.71623L2.0366 6.84941L1.71788 8.2604L3.02016 8.89003L3.33522 10.299L4.20617 10.3017L4.20617 14L6.97033 12.4862L9.7345 14L9.7345 10.3019L10.6455 10.2991L10.9755 8.89015L12.2804 8.26052L11.9629 6.84947L12.8621 5.71623L12.8621 5.71623ZM8.59297 8.42777L5.52835 8.42777L5.52835 7.22596L6.36962 7.22596L6.36962 4.28152L5.46826 4.28152L5.46826 2.95953L7.7517 2.95953L7.7517 7.22596L8.59297 7.22596L8.59297 8.42777L8.59297 8.42777Z" id="Shape" fill="#DCE3EC" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

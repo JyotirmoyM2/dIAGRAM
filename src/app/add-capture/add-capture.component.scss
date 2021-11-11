@@ -1,0 +1,201 @@
+@import '../../colors';
+
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: $whiteColor;
+    box-shadow: 0px 1px rgba(0,0,0,0.06);
+    padding: 15px 25px;
+    min-height: 70px;
+
+    .notification_bell{
+        position: relative;
+
+        .badge{
+            position: absolute;
+            height: 20px;
+            line-height: 14px;
+            right: -10px;
+            top: -8px;
+            width: 20px;            
+        }
+    }
+    .profile_select{
+        border: 0;
+        box-shadow: none;
+        max-width: 38px;
+        padding-right: 12px;
+        background: transparent url('../../assets/ic_select.svg');
+        background-repeat: no-repeat;
+        background-position: right center;
+    }
+}
+
+.add_entry_card {
+    border-color: $cardBorder;
+    border-radius: 4px;
+    background: $whiteColor;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.05);
+
+    .card-header,.card-footer,.border-right{
+        border-color: $cardBorder;
+    }
+    .category_select{
+        font-family: 'Roboto', sans-serif;
+        height: 38px;
+        line-height: 38px;
+        text-align: left;
+        padding-left: 18px;
+        border-radius: 5px;
+        border: 1px solid $borderColorLight;
+        box-shadow: inset 0px 1px 1px rgba(100,100,100,0.05);
+        background: $whiteColor url("../../assets/ic_select.svg") no-repeat right 0.75rem center;  
+        cursor: pointer;      
+    }
+    .nav-tabs{
+        li{
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 25%;
+            text-align: center;
+            margin: 0;
+            
+            .nav-link{
+                font-size: 14px;
+                color: $fontColor;
+                border-right:1px solid $cardBorder;
+                border-left: 0;
+                border-top: 0;
+                border-bottom: 0;
+                border-radius: 0;
+
+                &.active{
+                    color: $primaryColor;
+                    font-weight: 600;
+                }
+            }
+            &:first-child{
+                .nav-link{
+                    border-top-left-radius: 0.25rem;
+                }
+            }
+            &:last-child{
+                .nav-link{
+                    border-right: 0;
+                    border-top-right-radius: 0.25rem;
+                }
+            }
+        }
+    }
+    .search_field{
+        border: 0;
+        background-color: transparent;
+        font-style: italic;
+        padding-left: 30px;
+        background-image: url("../../assets/ic_search.svg");
+        background-position: 5px center;
+        background-repeat: no-repeat;
+        background-size: 16px;
+
+        &:focus{
+            box-shadow: none;
+        }
+    }
+    .checkbox_wrapper{
+        height: 152px;
+        padding: 18px 30px;
+        overflow: auto;
+
+        .custom-control {
+            width: calc(33% - 1rem);
+            margin-bottom: 5px;
+            padding-left: 50px;
+
+            &.fav{
+                &:hover,&:focus{
+                    background: url('../../assets/ic_fav_grey.svg');
+                    background-position: 3px center;
+                    background-repeat: no-repeat;
+                }
+                &.checked {
+                    background: url('../../assets/ic_fav_blue.svg');
+                    background-position: 3px center;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+
+        .custom-control-input ~ .custom-control-label::before,.custom-control-input ~ .custom-control-label::after{
+            left: 25px;
+        }
+        .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{
+            background-color: $secondaryBtnColor;
+        }
+        .custom-control-input:checked ~ .custom-control-label::before{
+            background-color: $secondaryBtnColor;
+        }
+    }
+  }
+  
+
+  .upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    border-radius: 7.5px;
+    border: dashed 2px rgba(62,63,66,0.4);   
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+
+  .upload_list{
+    margin: 30px auto;
+    ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li{
+        margin-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid $cardBorder;
+        .img_thumb{
+          width: 28px;
+          height: 28px;
+          margin-right: 10px;
+        }
+        .file_name{
+          max-width:150px;
+        }
+        .red_link{
+          color: $fontColor-red;
+        }
+      }
+    }
+  }
+
+  .category_modal{
+      .category_list{
+          .badge{
+              font-size: 12px;
+              font-weight: 400;
+              margin: 10px;
+              padding: 13px 20px;
+              color: $badge-blue;
+              background-color: rgba($badge-blue,0.1);
+
+              &.selected{
+                color: $whiteColor;
+                background-color: $badge-blue;
+              }
+          }
+      }
+  }

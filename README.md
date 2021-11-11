@@ -1,100 +1,27 @@
+# Testapp
 
-<h1>An Image Gallery</h1>
-<div class="container">
-<div class="item red">
-	<img src="https://preview.ibb.co/gQbzQ5/colt_steele_firemarshall.jpg"/>
-	<i class="fa fa-camera"></i>
-</div>
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
 
-<div class="item blue">
-	<img src="http:i.imgur.com/AhCfhrF.jpg"/>
-	<i class="fa fa-paw"></i>
-</div>
+## Development server
 
-<div class="item green">
-	<img src="http://preview.ibb.co/kd9Esk/colt_steele_smugglerscave.jpg"/>
-	<i class="fa fa-cloud"></i>
-</div>
-  
-  </div>
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Code scaffolding
 
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
-@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+## Build
 
-h1 {
-  text-align: center;
-  font-family: Raleway;
-  color: #34495e;
-}
-.container {
-  display: flex;
-  justify-content: center;
-}
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+## Running unit tests
 
-div.item {
-  position: relative;
-  float: left;
-  overflow: hidden;
-  margin: 10px 1%;
-  min-width: 220px;
-  max-width: 310px;
-  width: 100%;
-  background: #000000;
-  text-align: center;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-}
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-div.item * {
-  box-sizing: border-box;
-}
+## Running end-to-end tests
 
-div.item img {
-  max-width: 100%;
-  vertical-align: top;
-  height: 210px;
-}
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-div.item i {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  border-radius: 50%;
-  font-size: 34px;
-  color: #000000;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  background: #ffffff;
-}
+## Further help
 
-div.item a {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  position: absolute;
-}
-
-div.item.blue {
-  background-color: #34495e;
-}
-div.item.blue i {
-  color: #34495e;
-}
-div.item.red {
-  background-color: #e74c3c;
-}
-div.item.red i {
-  color: #e74c3c;
-}
-
-div.item.green {
-  background-color: #16a085;
-}
-div.item.green i {
-  color: #16a085;
-}
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

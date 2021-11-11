@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L4 0L4 6L0 6L0 0Z" id="path_1" />
+    <path d="M1.52588e-05 0.000244141L4.00002 0.000244141L4.00002 6.00025L1.52588e-05 6.00025L1.52588e-05 0.000244141Z" id="path_2" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+    <clipPath id="mask_2">
+      <use xlink:href="#path_2" />
+    </clipPath>
+  </defs>
+  <g id="Group">
+    <g id="right-arrow" transform="matrix(-4.371139E-08 1 -1 -4.371139E-08 6.0407715 7.0038605)">
+      <path d="M0 0L4 0L4 6L0 6L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+      <g clip-path="url(#mask_1)">
+        <g id="Group" transform="translate(0.3725586 -0.0009765625)">
+          <g id="Group">
+            <path d="M3.38589 2.88702L0.12874 0.0174163C0.102343 -0.00580543 0.0695974 -0.00580543 0.0428545 0.0174163C0.0164572 0.040638 0 0.083682 0 0.13037L0 5.86956C0 5.91626 0.0164572 5.95931 0.0428545 5.98252C0.0560572 5.994 0.0709715 5.99999 0.0857091 5.99999C0.100623 5.99999 0.115369 5.99426 0.12874 5.98252L3.38589 3.11291C3.41228 3.08944 3.42857 3.04639 3.42857 2.99996C3.42857 2.95353 3.41228 2.91023 3.38589 2.88702L3.38589 2.88702Z" id="Shape" fill="#9EA0A5" fill-rule="evenodd" stroke="none" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="right-arrow-Copy" transform="matrix(-4.371139E-08 -1 -1 4.371139E-08 6 3.9999847)">
+      <path d="M1.52588e-05 0.000244141L4.00002 0.000244141L4.00002 6.00025L1.52588e-05 6.00025L1.52588e-05 0.000244141Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+      <g clip-path="url(#mask_2)">
+        <g id="Group" transform="translate(0.37246704 0.00024414062)">
+          <g id="Group" transform="translate(-1.5258789E-05 0)">
+            <path d="M3.3859 2.88702L0.128756 0.0174163C0.102358 -0.00580544 0.0696127 -0.00580544 0.0428698 0.0174163C0.0164724 0.040638 1.52588e-05 0.083682 1.52588e-05 0.13037L1.52588e-05 5.86956C1.52588e-05 5.91626 0.0164724 5.95931 0.0428698 5.98252C0.0560725 5.994 0.0709868 5.99999 0.0857243 5.99999C0.100639 5.99999 0.115384 5.99426 0.128756 5.98252L3.3859 3.11291C3.4123 3.08944 3.42859 3.04639 3.42859 2.99996C3.42859 2.95353 3.4123 2.91023 3.3859 2.88702L3.3859 2.88702Z" id="Shape" fill="#9EA0A5" fill-rule="evenodd" stroke="none" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

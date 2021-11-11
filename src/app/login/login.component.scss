@@ -1,0 +1,97 @@
+@import '../../colors';
+
+.loginModule {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+  }
+  .loginWrapper {
+    max-width: 90%;
+    width: 825px;
+    display: flex;
+    align-items: stretch;
+    background: #fff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+
+
+    .loginWrapperRight {
+      flex: 1;
+      position: relative;
+    }
+    .loginWrapperLeft {
+      padding: 0 30px 30px;
+      width: 380px;
+      position: relative;
+      h3 {
+        font-size: 22px;
+        color: $fontColor;
+      }
+      .loginLogo{
+        display: inline-block;
+        position: relative;
+        top: -35px;
+        left: -10px;
+        margin-bottom: -35px;
+      }
+      .input-group-text{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-color: $borderColorLight;
+        box-shadow: inset 0px 1px 1px rgba(100,100,100,0.05);
+      }
+      .pwd_btn{
+        position: absolute;
+        right: 10px;
+        top:8px;
+        background: transparent;
+        border: 0;
+
+        &:focus{
+          box-shadow: none;
+          outline: none;
+        }
+      }
+    }
+    .loginWrapperRight {
+      background: url('../../assets/login-bg.png') no-repeat;
+      background-size: cover;
+      display: inline-flex;
+      align-items: flex-end;
+      figcaption {
+        color: $whiteColor;
+        padding: 30px;
+        h1 {
+          font-size: 22px;
+        }
+        h5 {
+          font-size: 14px;
+        }
+      }
+    }
+    .buttonGroup {
+      padding-top: 15px;
+      hr {
+        margin: 20px 0;
+      }
+      .btn-secondary {
+        border-radius: 32px 0px 32px 32px;
+      }
+      .btn-light {
+        border-radius: 30px 30px 30px 0px;
+      }
+    }
+  }
+  .forgotPassword {
+    font-size: 16px;
+    color: $fontColor;
+  }
+}
